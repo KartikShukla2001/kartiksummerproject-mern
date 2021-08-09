@@ -74,25 +74,25 @@ const EditProfile = ({setOnEdit}) => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="mobile">Mobile</label>
+                    <label htmlFor="mobile">Job</label>
                     <input type="text" name="mobile" value={mobile}
                     className="form-control" onChange={handleInput} />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="address">Address</label>
+                    <label htmlFor="address">Expert-in</label>
                     <input type="text" name="address" value={address}
                     className="form-control" onChange={handleInput} />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="website">Website</label>
+                    <label htmlFor="website">Company</label>
                     <input type="text" name="website" value={website}
                     className="form-control" onChange={handleInput} />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="story">Story</label>
+                    <label htmlFor="story">Achievements</label>
                     <textarea name="story" value={story} cols="30" rows="4"
                     className="form-control" onChange={handleInput} />
 

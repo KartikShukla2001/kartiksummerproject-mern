@@ -57,10 +57,10 @@ const Info = ({id, auth, profile, dispatch}) => {
 
                             <div className="follow_btn">
                                 <span className="mr-4" onClick={() => setShowFollowers(true)}>
-                                    {user.followers.length} Followers
+                                    {user.followers.length} Votes
                                 </span>
                                 <span className="ml-4" onClick={() => setShowFollowing(true)}>
-                                    {user.following.length} Following
+                                    {user.following.length} Voted
                                 </span>
                             </div>
 
